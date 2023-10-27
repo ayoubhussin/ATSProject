@@ -1,0 +1,42 @@
+{
+  "Types": {
+    "Interline": {
+      "44400000004": {
+        "Origin": "Birmingham ",
+        "Destination": "Rotterdam",
+        "Other Tax": "35.0",
+        "Customer": "Chris Smart",
+        "Commission": "3.0",
+        "Local Currency Paid": "230.0",
+        "Exchange Rate": "0.43",
+        "Local Tax": "23.0",
+        "Currency Code": "NZD",
+        "Discount Used": "1.0",
+        "Ticket Number": "1114",
+        "Valued": "No",
+        "USD Paid": "534.88",
+        "Due Date": "2023-02-02"
+      },
+      "44400000002": {
+        "Origin": "Birmingham ",
+        "Destination": "Rotterdam",
+        "Other Tax": "35.0",
+        "Customer": "Chris Smart",
+        "Commission": "3.0",
+        "Local Currency Paid": "230.0",
+        "Exchange Rate": "0.43",
+        "Local Tax": "23.0",
+        "Currency Code": "NZD",
+        "Discount Used": "1.0",
+        "Ticket Number": "1114",
+        "Valued": "No",
+        "USD Paid": "534.88",
+        "Due Date": "2023-02-02"
+      }
+    }
+  },
+  "Advisor Details": {
+    "ID": "250",
+    "Name": "Penelope Pitstop"
+  }
+}

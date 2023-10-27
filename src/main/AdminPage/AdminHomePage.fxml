@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AdminPage.AdminHomePage">
+   <right>
+      <BorderPane fx:id="contPanel" prefHeight="600.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <center>
+            <AnchorPane fx:id="mainPanel" prefHeight="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TabPane prefHeight="600.0" prefWidth="602.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Blanks">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Rectangle fx:id="boxBG" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="130.0" layoutX="299.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+                                    <Label layoutX="403.0" layoutY="225.0" text="New Blanks" textFill="WHITE" />
+                                    <Label layoutX="317.0" layoutY="259.0" prefHeight="25.0" prefWidth="49.0" text="Type:" textFill="WHITE" />
+                                    <ComboBox fx:id="blank_CreateTypeComboBox" layoutX="367.0" layoutY="259.0" prefHeight="25.0" prefWidth="208.0" />
+                                    <TextField fx:id="blank_CreateAmount" layoutX="389.0" layoutY="295.0" prefHeight="25.0" prefWidth="188.0" />
+                                    <Label layoutX="318.0" layoutY="295.0" prefHeight="25.0" prefWidth="70.0" text="Amount: " textFill="WHITE" />
+                                    <Rectangle fx:id="boxBG" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="145.0" layoutX="298.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="395.0" layoutY="18.0" prefHeight="25.0" prefWidth="109.0" text="Filter Blanks" textFill="WHITE" />
+                                    <ComboBox fx:id="blank_AdvisorIDFilterComboBox" layoutX="402.0" layoutY="53.0" prefHeight="25.0" prefWidth="174.0" />
+                                    <Label layoutX="311.0" layoutY="53.0" text="Advisor ID:" textFill="WHITE" />
+                                    <ComboBox fx:id="blank_TypeFilterComboBox" layoutX="365.0" layoutY="88.0" prefHeight="25.0" prefWidth="212.0" />
+                                    <Label layoutX="310.0" layoutY="88.0" text="Type:" textFill="WHITE" />
+                                    <Button fx:id="blank_SearchBtn" layoutX="329.0" layoutY="163.0" mnemonicParsing="false" onAction="#BlankTableRefresh" prefHeight="35.0" prefWidth="110.0" text="Search" />
+                                    <Button fx:id="blank_ResetBtn" layoutX="449.0" layoutY="163.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="110.0" text="Reset Filter" />
+                                    <Button fx:id="blank_CreateBtn" layoutX="394.0" layoutY="347.0" mnemonicParsing="false" onAction="#CreateBlanks" prefHeight="35.0" prefWidth="110.0" text="Create" />
+                                    <TableView fx:id="blanks_BlankTableView" layoutX="21.0" layoutY="18.0" prefHeight="502.0" prefWidth="251.0">
+                                       <columns>
+                                          <TableColumn fx:id="blanks_BlankNumberColumn" prefWidth="150.0" text="Blank Number" />
+                                          <TableColumn fx:id="blanks_AdvisorIDColumn" prefWidth="101.0" text="Advisor ID" />
+                                       </columns>
+                                    </TableView>
+                                    <Rectangle fx:id="boxBG" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="106.0" layoutX="299.0" layoutY="389.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+                                    <Label layoutX="399.0" layoutY="395.0" text="Remove Blank" textFill="WHITE" />
+                                    <Label layoutX="317.0" layoutY="420.0" prefHeight="25.0" prefWidth="60.0" text="Type:" textFill="WHITE" />
+                                    <ComboBox fx:id="blank_RemoveBlankTypeComboBox" layoutX="369.0" layoutY="420.0" onAction="#UpdateBlankRemoveTypes" prefHeight="25.0" prefWidth="206.0" />
+                                    <Label layoutX="316.0" layoutY="458.0" prefHeight="25.0" prefWidth="58.0" text="Blank:" textFill="WHITE" />
+                                    <Button fx:id="blank_RemoveBtn" layoutX="394.0" layoutY="503.0" mnemonicParsing="false" onAction="#BlankRemove" prefHeight="35.0" prefWidth="110.0" text="Remove" />
+                                    <CheckBox fx:id="blank_UnsoldCheckBox" alignment="CENTER" contentDisplay="RIGHT" layoutX="307.0" layoutY="122.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="17.0" prefWidth="87.0" selected="true" text="Unsold" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </CheckBox>
+                                    <Line endX="140.0" layoutX="449.0" layoutY="204.0" opacity="0.5" startX="-160.0" />
+                                    <Line endX="140.0" layoutX="449.0" layoutY="386.0" opacity="0.5" startX="-160.0" />
+                                    <ComboBox fx:id="blank_RemoveBlankComboBox" layoutX="369.0" layoutY="458.0" prefHeight="25.0" prefWidth="206.0" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                        <Tab text="Backups">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Rectangle fx:id="boxBG" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="99.0" layoutX="152.0" layoutY="68.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+                                    <Label layoutX="246.0" layoutY="77.0" text="Create Backup" textFill="WHITE" />
+                                    <ComboBox fx:id="backup_tableComboBox" layoutX="217.0" layoutY="115.0" prefHeight="25.0" prefWidth="212.0" />
+                                    <Label layoutX="166.0" layoutY="115.0" text="Table:" textFill="WHITE" />
+                                    <Button fx:id="backup_CreateBackupBtn" layoutX="234.0" layoutY="176.0" mnemonicParsing="false" onAction="#GenerateBackup" prefHeight="35.0" prefWidth="126.0" text="Create Backup" />
+                                    <Rectangle fx:id="boxBG" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="132.0" layoutX="152.0" layoutY="268.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+                                    <Label layoutX="208.0" layoutY="276.0" text="Recover Table From Backup" textFill="WHITE" />
+                                    <ComboBox fx:id="backup_RecoverTableComboBox" layoutX="217.0" layoutY="315.0" onAction="#RefreshBackupList" prefHeight="25.0" prefWidth="212.0" />
+                                    <Label layoutX="166.0" layoutY="315.0" text="Table:" textFill="WHITE" />
+                                    <Button fx:id="backup_RecoverBackupBtn" layoutX="234.0" layoutY="410.0" mnemonicParsing="false" onAction="#UseBackup" prefHeight="35.0" prefWidth="126.0" text="Recover" />
+                                    <ComboBox fx:id="backup_RecoverBackupComboBox" layoutX="225.0" layoutY="352.0" prefHeight="25.0" prefWidth="204.0" />
+                                    <Label layoutX="165.0" layoutY="352.0" text="Backup:" textFill="WHITE" />
+                                 </children></AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="My Account">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Rectangle fx:id="boxBG" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="143.0" layoutX="147.0" layoutY="146.0" stroke="BLACK" strokeType="INSIDE" width="321.0" />
+                                    <Label layoutX="252.0" layoutY="154.0" text="Change Password" textFill="WHITE" />
+                                    <PasswordField fx:id="myAccount_CurrentPassTextField" layoutX="303.0" layoutY="193.0" />
+                                    <PasswordField fx:id="myAccount_NewPassTextField" layoutX="303.0" layoutY="228.0" />
+                                    <Label alignment="CENTER" layoutX="162.0" layoutY="193.0" text="Current Password:" textAlignment="CENTER" textFill="WHITE" />
+                                    <Label alignment="CENTER" layoutX="162.0" layoutY="226.0" text="New Password:" textAlignment="CENTER" textFill="WHITE" />
+                                    <Rectangle fx:id="boxBG" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutX="221.0" layoutY="59.0" stroke="BLACK" strokeType="INSIDE" width="174.0" />
+                                    <Label fx:id="myAccount_MyIDLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="221.0" layoutY="69.0" prefHeight="25.0" prefWidth="174.0" text="My ID:" textFill="WHITE" />
+                                    <Button fx:id="myAccount_ChangePassBtn" layoutX="222.0" layoutY="322.0" mnemonicParsing="false" onAction="#ChangePassword" prefHeight="35.0" prefWidth="162.0" text="Change Password" />
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </right>
+   <left>
+      <BorderPane fx:id="navPanel" prefHeight="600.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <bottom>
+            <AnchorPane prefHeight="114.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="logOutBtn" layoutX="37.0" layoutY="41.0" mnemonicParsing="false" onAction="#LogOutOnAction" prefHeight="35.0" prefWidth="126.0" text="Log Out" />
+               </children>
+            </AnchorPane>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView layoutX="37.0" layoutY="19.0">
+                     <image>
+                        <Image url="@../images/air_via_logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane fx:id="sidePanel" prefHeight="286.0" prefWidth="166.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </left>
+</BorderPane>

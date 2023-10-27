@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<string-array name="nationalities_array">
+<item>Afghan</item>
+<item>Albanian</item>
+<item>Algerian</item>
+<item>American</item>
+<item>Andorran</item>
+<item>Angolan</item>
+<item>Anguillan</item>
+<item>Citizen of Antigua and Barbuda</item>
+<item>Argentine</item>
+<item>Armenian</item>
+<item>Australian</item>
+<item>Austrian</item>
+<item>Azerbaijani</item>
+<item>Bahamian</item>
+<item>Bahraini</item>
+<item>Bangladeshi</item>
+<item>Barbadian</item>
+<item>Belarusian</item>
+<item>Belgian</item>
+<item>Belizean</item>
+<item>Beninese</item>
+<item>Bermudian</item>
+<item>Bhutanese</item>
+<item>Bolivian</item>
+<item>Citizen of Bosnia and Herzegovina</item>
+<item>Botswanan</item>
+<item>Brazilian</item>
+<item>British</item>
+<item>British Virgin Islander</item>
+<item>Bruneian</item>
+<item>Bulgarian</item>
+<item>Burkinan</item>
+<item>Burmese</item>
+<item>Burundian</item>
+<item>Cambodian</item>
+<item>Cameroonian</item>
+<item>Canadian</item>
+<item>Cape Verdean</item>
+<item>Cayman Islander</item>
+<item>Central African</item>
+<item>Chadian</item>
+<item>Chilean</item>
+<item>Chinese</item>
+<item>Colombian</item>
+<item>Comoran</item>
+<item>Congolese (Congo)</item>
+<item>Congolese (DRC)</item>
+<item>Cook Islander</item>
+<item>Costa Rican</item>
+<item>Croatian</item>
+<item>Cuban</item>
+<item>Cymraes</item>
+<item>Cymro</item>
+<item>Cypriot</item>
+<item>Czech</item>
+<item>Danish</item>
+<item>Djiboutian</item>
+<item>Dominican</item>
+<item>Citizen of the Dominican Republic</item>
+<item>Dutch</item>
+<item>East Timorese</item>
+<item>Ecuadorean</item>
+<item>Egyptian</item>
+<item>Emirati</item>
+<item>English</item>
+<item>Equatorial</item>
+<item>Guinean</item>
+<item>Eritrean</item>
+<item>Estonian</item>
+<item>Ethiopian</item>
+<item>Faroese</item>
+<item>Fijian</item>
+<item>Filipino</item>
+<item>Finnish</item>
+<item>French</item>
+<item>Gabonese</item>
+<item>Gambian</item>
+<item>Georgian</item>
+<item>German</item>
+<item>Ghanaian</item>
+<item>Gibraltarian</item>
+<item>Greek</item>
+<item>Greenlandic</item>
+<item>Grenadian</item>
+<item>Guamanian</item>
+<item>Guatemalan</item>
+<item>Citizen of Guinea-Bissau</item>
+<item>Guinean</item>
+<item>Guyanese</item>
+<item>Haitian</item>
+<item>Honduran</item>
+<item>Hong Konger</item>
+<item>Hungarian</item>
+<item>Icelandic</item>
+<item>Indian</item>
+<item>Indonesian</item>
+<item>Iranian</item>
+<item>Iraqi</item>
+<item>Irish</item>
+<item>Israeli</item>
+<item>Italian</item>
+<item>Ivorian</item>
+<item>Jamaican</item>
+<item>Japanese</item>
+<item>Jordanian</item>
+<item>Kazakh</item>
+<item>Kenyan</item>
+<item>Kittitian</item>
+<item>Citizen of Kiribati</item>
+<item>Kosovan</item>
+<item>Kuwaiti</item>
+<item>Kyrgyz</item>
+<item>Lao</item>
+<item>Latvian</item>
+<item>Lebanese</item>
+<item>Liberian</item>
+<item>Libyan</item>
+<item>Liechtenstein citizen</item>
+<item>Lithuanian</item>
+<item>Luxembourger</item>
+<item>Macanese</item>
+<item>Macedonian</item>
+<item>Malagasy</item>
+<item>Malawian</item>
+<item>Malaysian</item>
+<item>Maldivian</item>
+<item>Malian</item>
+<item>Maltese</item>
+<item>Marshallese</item>
+<item>Martiniquais</item>
+<item>Mauritanian</item>
+<item>Mauritian</item>
+<item>Mexican</item>
+<item>Micronesian</item>
+<item>Moldovan</item>
+<item>Monegasque</item>
+<item>Mongolian</item>
+<item>Montenegrin</item>
+<item>Montserratian</item>
+<item>Moroccan</item>
+<item>Mosotho</item>
+<item>Mozambican</item>
+<item>Namibian</item>
+<item>Nauruan</item>
+<item>Nepalese</item>
+<item>New Zealander</item>
+<item>Nicaraguan</item>
+<item>Nigerian</item>
+<item>Nigerien</item>
+<item>Niuean</item>
+<item>North Korean</item>
+<item>Northern Irish</item>
+<item>Norwegian</item>
+<item>Omani</item>
+<item>Pakistani</item>
+<item>Palauan</item>
+<item>Palestinian</item>
+<item>Panamanian</item>
+<item>Papua New Guinean</item>
+<item>Paraguayan</item>
+<item>Peruvian</item>
+<item>Pitcairn Islander</item>
+<item>Polish</item>
+<item>Portuguese</item>
+<item>Prydeinig</item>
+<item>Puerto Rican</item>
+<item>Qatari</item>
+<item>Romanian</item>
+<item>Russian</item>
+<item>Rwandan</item>
+<item>Salvadorean</item>
+<item>Sammarinese</item>
+<item>Samoan</item>
+<item>Sao Tomean</item>
+<item>Saudi Arabian</item>
+<item>Scottish</item>
+<item>Senegalese</item>
+<item>Serbian</item>
+<item>Citizen of Seychelles</item>
+<item>Sierra Leonean</item>
+<item>Singaporean</item>
+<item>Slovak</item>
+<item>Slovenian</item>
+<item>Solomon Islander</item>
+<item>Somali</item>
+<item>South African</item>
+<item>South Korean</item>
+<item>South</item>
+<item>Sudanese</item>
+<item>Spanish</item>
+<item>Sri Lankan</item>
+<item>St Helenian</item>
+<item>St Lucian</item>
+<item>Stateless</item>
+<item>Sudanese</item>
+<item>Surinamese</item>
+<item>Swazi</item>
+<item>Swedish</item>
+<item>Swiss</item>
+<item>Syrian</item>
+<item>Taiwanese</item>
+<item>Tajik</item>
+<item>Tanzanian</item>
+<item>Thai</item>
+<item>Togolese</item>
+<item>Tongan</item>
+<item>Trinidadian</item>
+<item>Tristanian</item>
+<item>Tunisian</item>
+<item>Turkish</item>
+<item>Turkmen</item>
+<item>Turks and Caicos Islander</item>
+<item>Tuvaluan</item>
+<item>Ugandan</item>
+<item>Ukrainian</item>
+<item>Uruguayan</item>
+<item>Uzbek</item>
+<item>Vatican citizen</item>
+<item>Citizen of Vanuatu</item>
+<item>Venezuelan</item>
+<item>Vietnamese</item>
+<item>Vincentian</item>
+<item>Wallisian</item>
+<item>Welsh</item>
+<item>Yemeni</item>
+<item>Zambian</item>
+<item>Zimbabwean</item>
+</string-array>

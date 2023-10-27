@@ -1,0 +1,148 @@
+/* Global Style */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.root {
+    -fx-background-color: #EDF2F4
+}
+
+.hyperlink {
+    -fx-underline: false;
+    -fx-border-color: transparent;
+}
+
+.button {
+    -fx-background-color: #31AED1;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+}
+
+.button:hover{
+    -fx-background-color: #3FB93B;
+    -fx-font-size: 16;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.line {
+    -fx-stroke: #2B2D42;
+
+}
+
+.text-field {
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+
+}
+
+.combo-box {
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+
+}
+
+.date-picker {
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+
+}
+
+.tab  {
+    -fx-background-color: #31AED1;
+    -fx-padding: 8 10 8 10;
+
+}
+
+.tab-label {
+    -fx-font-family: 'coolvetica bold';
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+}
+
+.tab:selected {
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color: #31AED1;
+    -fx-border-opacity: 0;
+    -fx-border-radius: 100;
+}
+.tab:hover {
+    -fx-background-color: #3FB93B;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color: #3FB93B;
+    -fx-font-size: 16;
+
+}
+
+
+
+.tab-pane:top *.tab-header-area {
+    -fx-padding: 0.716667em 0.266667em 0.0em 1.0em; /* overridden as 5 2 0 0 */
+}
+
+
+.label {
+    -fx-font-family: 'Ubuntu', sans-serif;
+    -fx-font-size: 16;
+}
+
+
+#title {
+    -fx-font-size: 26;
+    -fx-font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* Login Page*/
+
+#loginBtn {
+    -fx-background-color: #31AED1;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-family: 'Ubuntu', sans-serif;
+
+}
+
+#loginBtn:hover {
+    -fx-background-color: #3FB93B;
+    -fx-font-size: 16;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+/* Navigation Bar */
+
+#navPanel {
+    -fx-background-color: #EDF2F4;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+#discountSlider {
+
+}
+
+#totalBoxBG {
+    -fx-arc-height: 20;
+    -fx-arc-width: 20;
+    -fx-fill: #31AED1
+
+}
+/* Travel Advisor Page*/
+
+#blankFilterTitle {
+    -fx-font-family: 'Ubuntu', sans-serif;
+    -fx-font-size: 20;
+}
+
+
+
+#planeLine {
+    -fx-stroke-dash-array:  10, 15, 20, 40;
+    -fx-stroke: #31AED1;
+}
+
+/* Manager Page*/
+
+#boxBG {
+    -fx-arc-height: 20;
+    -fx-arc-width: 20;
+    -fx-fill: #31AED1;
+    -fx-stroke: #31AED1;
+}
